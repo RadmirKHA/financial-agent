@@ -1,8 +1,33 @@
+# Frontend / Vite / React / AI Studio wrapper (не включать в git)
+/src/
+/public/
+/index.html
+/package.json
+/package-lock.json
+/bun.lock
+/tsconfig.json
+/vite.config.ts
+/metadata.json
+/.env.example
 node_modules/
 build/
 dist/
 coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# OS & logs
 .DS_Store
 *.log
-.env*
-!.env.example
+
+# Environment secrets
+.env
+.env.*
+!financial_agent/.env.example

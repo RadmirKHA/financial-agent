@@ -1,6 +1,0 @@
-{
-  "name": "Financial Agent — Модульная структура",
-  "description": "Структурированный Python-агент финансового анализа с корректной обработкой Ctrl+C и автоматическим выбором папки для вывода CSV.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
